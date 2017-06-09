@@ -1,42 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-            <meta charset="UTF-8" />
-            <title> 여기 영역이 타이틀로 잡힘 </title>
+        <meta charset="UTF-8" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>Login | Instaclone</title>
     </head>
     <body>
-    	<img src="hehe.jpg"	 height='100px'>
-    	<h1>instagram</h1>
-    	<p>Don`t have an account?</p><a href="http://google.com">Sign up</a>
-    		<main>	
-    			<section>
-    				<div class="Column">
-    					<img id="Column__Image" img src="phone.jpg">
-    				</div>
+        <main>
+            <section>
+                
+                <div class="Column">
+                
+                    <img id="Column__Image" src="images/phone.png" />
+                
+                </div>
+                
+                <div class="Column">
 
-    				<div class="Column">
-    					<div class="Column__Section">
-    						<img src="hehe.jpg" class="Section__Image" />
-    				</div>
+                    <div class="Column__Section">
+                
+                        <img src="images/logo.png" class="Section__Image" />
+                
+                    </div>
 
-    				<div class="Column">
-    				</div>
+                    <div class="Column__Section">
+                    
+                        <form class="Section__Form" method="POST" action="feed.html">
+                            
+                            <input type="text" placeholder="Username" required name="username" />
+                            
+                            <input type="password" placeholder="Password" required name="password" />
+                            
+                            <input type="date" />
+                            <input type="color" />
+                            <input type="file" />
+                            <input type="file" />
+                            
+                            <a class="Section__Link" href="#">Forgot?</a>
+                            
+                            <input type="submit" value="Log in" />
+                        
+                        </form>
 
-    				<div class="Column">
-    					<form class="Section__Form">
-    					<input type="text" placeholder="Username" required>
 
-    					<input type="password" placeholder="password" required>
+                        <span class="Section__Divider">Or</span>
 
-    					<a class="Section__Link" href="#">Forgot?</a>
+                        <a href="http://facebook.com">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                            Log in with Facebook</a>
+                    
+                    </div>
+                    
+                    <div class="Column__Section">
+                        
+                        <p class="Colum__Text">Don't have an account?</p>
 
-    					<input type="Submit" value="Submit">
+                        <a class="Colum__Link" href="#">Sign up</a>
 
-    					</form>
-    					
-    				</div>
+                    </div>
 
-    			</section>
-    		</main>
+                    <div class="Column__Section">
+                        <p class="Column__Text">Get the app</p>
+                        <div class="Column__Images">
+                            <img src="images/android.png" class="Images__Image" />
+                            <img src="images/ios.png" class="Images__Image" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="Footer">
+            <nav class="Footer__Nav">
+                <ul class="Nav__List">
+                    <li class="List__Item">
+                        <a href="#" class="Item__Link">About us</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Support</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Blog</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Press</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Api</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Jobs</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Privacy</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Terms</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Directory</a>
+                    </li>
+                    <li class="List__Item">
+                        <a href="" class="Item__Link">Language</a>
+                    </li>
+                </ul>
+            </nav>
+            <span class="Nav__Copyright">© 2017 Instagram</span>
+        </footer>
     </body>
 </html>
