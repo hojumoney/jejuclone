@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<title>profile instaclone</title>
+		
+	<div>
+		<img src="hehe.jpg">
+	</div>
+	
+	<div>
+		<input type="text" placeholder=search>	
+
+	<div>
+			<a href="explore.html" class="Column__Link"><i class="fa fa-compass"></i></a>
+			<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
+			<a href="profile.html" class="Column__Link"><i class="fa fa-user-o"></i></a>
+	</div>
+	</div>
+	</head>
+	</head>
+
+<body>
+	<div>
+		<img src="pf_1.jpg">
+	</div>
+
+	<header>
+		<div>
+		<img src="profile_1.jpg"> <a class="profile.html" title="Insta_ID" href="profile.html">Insta ID</a>
+		</div>
+
+		<span class=following__button>
+			<button class=following_button>following</button>
+		</span>
+
+	</header>
+
+	<div class="body__text">
+		<a class="Insta_ID" title="Insta_ID" href="profile.html">Insta ID</a>
+		<span>body__text__blablabla</span>
+	</div>
+
+	<div>
+			<a href="#" class="Column__Link"><i class="fa fa-heart-o"></i></a>
+			<a href="#" class="comment"><i class="fa fa-comment-o"></i></a>
+	</div>
+
+	<div>
+			<span>457 likes</span>
+			<span>Octo
+
